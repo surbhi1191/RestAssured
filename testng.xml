@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/surbhi/IdeaProjects/SurbhiProject/src/test/java/ApiChaining">
+        <classes>
+            <class name="ApiChaining.CreateUser">
+                <methods>
+                    <include name="createUser"/>
+                </methods>
+            </class>
+            <class name="ApiChaining.DeleteUser">
+                <methods><include name="deleteUser"/>
+                </methods></class>
+            <class name="ApiChaining.GetUser"><methods><include name="getUser"/></methods></class><class name="ApiChaining.UpdateUser"><methods><include name="updateUser"/></methods></class></classes></test></suite>
